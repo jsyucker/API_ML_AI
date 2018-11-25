@@ -27,8 +27,9 @@
 - 用户案例（User story）：在校学生，微信中看到一张图片，突发奇想，想要知道图片是不是自己的师兄姐，点击图片，再长按图片弹出‘进行师兄姐识别’的提示；打开小程序，输入师兄姐的名字输出其毕业照.
 - 所对映的标题（Title）：师兄姐识别
 - 重要程度（Importance）：毕业季、闲余时间、突发奇想时使用.
-- 笔记（Note）：https://blog.csdn.net/wozaixiaoximen/article/details/78365032
-https://www.cnblogs.com/sapho/p/6143819.html
+- 笔记（Note）：
+  - https://blog.csdn.net/wozaixiaoximen/article/details/78365032
+  - https://www.cnblogs.com/sapho/p/6143819.html
 
 <Br/> 
 
