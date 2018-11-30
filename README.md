@@ -24,7 +24,7 @@
 - 技术：Detect API Search API 辅助API组（face++）<Br/> 
 ### 需求 Requirements: 
 |Title|User Story|Importance|Notes|
-|--|:--:|--:|
+|--|:--:|--:|--|
 |搜索|用户需要这个基本功能|重要|暂时没|
 |下拉随机刷新|用户可以通过该功能认识师兄姐|重要|暂时没|
 |分享|用户分享自己当天认识到的师兄姐，增强交互|重要|暂时没|
