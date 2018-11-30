@@ -23,15 +23,11 @@
 - 用户想搜索师兄姐其他的毕业照片；想到师兄姐的名字但忘了其样子；想不到名字和样貌，可以浏览，看到照片突然记起来.<Br/> 
 - 技术：Detect API Search API 辅助API组（face++）<Br/> 
 ### 需求 Requirements: 
-- 用户案例（User story）：在校学生，微信中看到一张图片，突发奇想，想要知道图片是不是自己的师兄姐，点击图片，再长按图片弹出‘进行师兄姐识别’的提示；打开小程序，输入师兄姐的名字输出其毕业照.
-- 所对映的标题（Title）：师兄姐识别
-- 重要程度（Importance）：毕业季、闲余时间、突发奇想时使用.
-- 笔记（Note）：
-  - https://blog.csdn.net/wozaixiaoximen/article/details/78365032
-  - https://www.cnblogs.com/sapho/p/6143819.html
-
-<Br/> 
-
+Title|User Story|Importance|Notes
+--|:--:|--:
+搜索|用户需要这个基本功能|重要
+下拉随机刷新|用户可以通过该功能认识师兄姐|重要
+分享|用户分享自己当天认识到的师兄姐，增强交互|重要
 ### 使用者交互及设计:
 •	暂时没有<Br/> 
 ### 问题 Questions: 
