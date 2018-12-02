@@ -29,7 +29,10 @@
 |图片--词语匹配|用户可以通过该功能增强自己的记忆|重要|暂时没|
 |分享|记忆完后，用户分享自己当天认识到的师兄姐，增强交互|重要|暂时没|
 ### 使用者交互及设计:
--	暂时没有<Br/> 
+- 低保真
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/API_Axure.jpg)<Br/>  
+- 流程图
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/API_Flow%20chart.jpg)
 ### 可解决的问题 Questions: 
 -	建立人脸库,可搜索
 -	长按弹出识别提示
