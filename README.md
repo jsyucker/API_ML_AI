@@ -112,3 +112,6 @@ for i in range(faceNum):
 ## 不做 Not doing: 
 -	互动小游戏
 
+## 清单
+- 交互原型：https://github.com/jsyucker/API_ML_AI/tree/master/API_yuanxing
+- 人脸检测代码：https://blog.csdn.net/hehangjiang/article/details/78948777
