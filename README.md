@@ -38,11 +38,20 @@
 |分享|用户认识完后需要互动|重要|
 |人脸搜索|用户可以用这个功能多认识几位师兄姐|次重要|
 ## 使用者交互及设计:
-更改中
-## 可解决的问题 Questions: 
--	建立人脸库,基本搜索、相似人脸搜索
--	长按弹出识别提示
-- 分享
+- 登录获取权限(低保真)<Br/>
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/authorization.jpg)
+- 分三大功能：<Br/>
+1. 我的(低保真)<Br/>
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/me.jpg)
+2. 每日新认识(低保真)<Br/>
+-- 下拉刷新<Br/>
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/new_recongnition.jpg)
+3. 相似搜寻，可支持上传图片和长按图片弹出识别提示(低保真)<Br/>
+- 上传图片(低保真)<Br/>
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/upload_photo.jpg)
+- 长按图片弹出提示(低保真)<Br/>
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/photo_longpress.jpg)
+
 ## API运用：
 1.face++:人脸识别-Detect API
 - 传入图片进行人脸检测和人脸分析，可以检测图片内的所有人脸，对于每个检测出的人脸，会给出其唯一标识 face_token，可用于后续的人脸分析、人脸比对等操作。
@@ -88,7 +97,18 @@ for i in range(faceNum):
     cv2.waitKey(0) 
     cv2.destroyAllWindows()
 ```
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/api_example.jpg)
+
+2. face++：辅助人脸API
+- 帮助建立人脸库
+```
+代码示例
+```
+## 可解决的问题 Questions: 
+-	建立人脸库,基本搜索、相似人脸搜索
+-	长按弹出识别提示
+- 分享
 
 ## 不做 Not doing: 
--	互动小游戏<Br/> 
+-	互动小游戏
 
