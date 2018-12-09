@@ -44,6 +44,50 @@
 -	长按弹出识别提示
 - 分享
 ## API运用：
+1.face++:人脸识别-Detect API
+- 传入图片进行人脸检测和人脸分析，可以检测图片内的所有人脸，对于每个检测出的人脸，会给出其唯一标识 face_token，可用于后续的人脸分析、人脸比对等操作。
+- 接口地址：https://api-cn.faceplusplus.com/facepp/v3/detect
+```
+代码示例
+import requests 
+from json import JSONDecoder 
+import cv2 
+http_url = "https://api-cn.faceplusplus.com/facepp/v3/detect" 
+key = "OuBJ9-ZMdQDvCzD1wp3cTIoPrKOgNhHB" 
+secret = "NhSSh13Vk_WHrJfh64SPoZejPiFi0VBX" 
+filepath = "G://test.jpg" 
+
+data = {"api_key": key, "api_secret": secret, "return_landmark": "1"} 
+files = {"image_file": open(filepath, "rb")} 
+response = requests.post(http_url, data=data, files=files) 
+
+req_con = response.content.decode('utf-8') 
+req_dict = JSONDecoder().decode(req_con) 
+print(req_dict) 
+#进过测试前面的程序会返回一个字典，其中指出了人脸所在的矩形的位置和大小等，所以直接进行标注 
+# mydict = eval(req_dict) 
+faces = req_dict["faces"] 
+faceNum = len(faces) 
+print("识别到了%d个人脸"%(faceNum)) 
+
+img = cv2.imread(filepath) 
+
+for i in range(faceNum): 
+    face_rectangle = faces[i]['face_rectangle'] 
+    width = face_rectangle['width'] 
+    top = face_rectangle['top'] 
+    left = face_rectangle['left'] 
+    height = face_rectangle['height'] 
+    start = (left, top) 
+    end = (left+width, top+height) 
+    color = (55,255,155) 
+    thickness = 3 
+    cv2.rectangle(img, start, end, color, thickness) 
+    cv2.namedWindow("识别后")
+    cv2.imshow("识别后", img) 
+    cv2.waitKey(0) 
+    cv2.destroyAllWindows()
+```
 
 ## 不做 Not doing: 
 -	互动小游戏<Br/> 
