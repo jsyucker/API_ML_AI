@@ -53,22 +53,17 @@
 ![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/photo_longpress.jpg)
 
 ## API运用：
-1.face++:人脸识别-search API 与 百度:人脸识别-search API 结果对比
-- 百度search API <Br/>
-![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/baidu_searchapi_example.jpg)
-- face++ search API <Br/>
+1.face++:人脸识别-search_API、辅助API组(建立人脸库)输入和输出<Br/>
+- 建立人脸库
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/setup_faceset.jpg)
+- 添加人脸 <Br/>
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/addface.jpg)
+- 添加自定义的人脸信息 <Br/>
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/face_SetuserID.jpg)
+- 人脸搜索 <Br/>
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/face_search.jpg)
+- 演示结果<Br/>
 ![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/face%2B%2Bsearch_api_example.jpg)
-- 两者人脸搜索功能结果显示基本一致，较大的区别为：百度人脸搜索'相似度'用百分比来表示；face++的人脸搜索'相似度'用‘高、一般、低’来表示
-2. face++：辅助人脸API
-- 帮助建立人脸库
-```
-代码示例
-```
-3. face++：Search API
-- 一对多人脸对比
-```
-代码示例
-```
 ## 可解决的问题 Questions: 
 -	建立人脸库,基本搜索、相似人脸搜索
 -	长按弹出识别提示
@@ -79,3 +74,4 @@
 
 ## 清单
 - 交互原型：https://github.com/jsyucker/API_ML_AI/tree/master/API_yuanxing
+- 代码原链接：https://blog.csdn.net/qq_37588821/article/details/80633563
