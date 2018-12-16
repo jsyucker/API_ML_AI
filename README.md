@@ -44,13 +44,13 @@
 1. 我的(低保真)<Br/>
 ![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/me.jpg)
 2. 每日新认识(低保真)<Br/>
--  下拉刷新<Br/>
+-  下拉刷新,点击放大后也有资料显示<Br/>
 ![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/new_recongnition.jpg)
-3. 相似搜寻，可支持上传图片和长按图片弹出识别提示(低保真)<Br/>
+3. 相似搜寻，可支持上传图片和长按图片弹出识别提示(低保真)，点击放大后也有资料显示<Br/>
 - 上传图片(低保真)<Br/>
-![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/upload_photo.jpg)
-- 长按图片弹出提示(低保真)<Br/>
-![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/photo_longpress.jpg)
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/upload.jpg)
+- 长按图片弹出提示(低保真)，点击放大后也有资料显示<Br/>
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/longpress.jpg)
 
 ## API运用：
 1.face++:人脸识别-search_API、辅助API组(建立人脸库)输入和输出<Br/>
