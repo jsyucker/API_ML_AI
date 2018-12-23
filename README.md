@@ -19,12 +19,13 @@
 ---
 - 后期
 1. 增加一些小游戏，例如图片--信息匹配、图片-图片匹配等，完成游戏后分享出去，邀请别人也来玩，加强互动
+2. 用户可以上传自己的照片，扩充人脸库，其他用户进行相似搜索时能找到更多人脸
 ## 核心价值: 
 在校学生/已毕业校友想要了解自己专业、社团或班级等不同团体的师兄姐/同级同学，提供基本的毕业生资料（姓名、学号、专业、年级）,分享这些照片，制造话题，成为加强互动的小工具
 ## 加值宣言:
 运用了人脸识别的人脸搜索API，找出与照片相同或相似的人脸，用户可以多认识几个人；也运用了辅助API组，帮助建立人脸库
 ## 用户
-在校学生 毕业校友
+在校师生 毕业校友
 ## 用户需求
 - 毕业季，拍了好多照片，但有很多师兄姐是不认识的
 - 群里闲聊，突然有人发出照片，他知道这是师兄姐，但不知道名字
@@ -62,8 +63,17 @@
 ![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/face_SetuserID.jpg)
 - 人脸搜索 <Br/>
 ![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/face_search.jpg)
-- 演示结果<Br/>
+- 单人搜索演示结果<Br/>
 ![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/face%2B%2Bsearch_api_example.jpg)
+- 多人搜索演示结果<Br/>
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/APIfause_manypeople.jpg)
+-  搜索出现的问题：
+- - 多人搜索时，从左边选择能检测到的人脸进行搜索，不能检测到所有的人脸
+- - 分辨率低时，检测的结果不可靠
+- 解决办法：
+- - 多人搜索时，先进行人脸检测，找出所有能检测出来的人脸，选择想要搜索的人脸
+- - 机器深度学习解决检测不到所有人脸
+- - 提示用户上传更高分辨率的图片
 ## 可解决的问题 Questions: 
 -	建立人脸库,基本搜索、相似人脸搜索
 -	长按弹出识别提示
@@ -71,6 +81,7 @@
 
 ## 不做 Not doing: 
 -	互动小游戏
+- 输入自己的照片
 
 ## 清单
 - 交互原型：https://github.com/jsyucker/API_ML_AI/tree/master/API_yuanxing
