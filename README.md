@@ -84,5 +84,5 @@
 - 输入自己的照片
 
 ## 清单
-- 交互原型：https://github.com/jsyucker/API_ML_AI/tree/master/API_yuanxing
+- 交互原型：https://jsyucker.github.io/API_yuanxing1
 - 代码原链接：https://blog.csdn.net/qq_37588821/article/details/80633563
