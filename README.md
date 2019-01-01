@@ -56,7 +56,7 @@
 ## API运用：
 1.face++:人脸识别-search_API、辅助API组(建立人脸库)输入和输出<Br/>
 - 建立人脸库
-![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/setup_faceset.jpg)
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/setup_faceset_new.jpg)
 - 添加人脸 <Br/>
 ![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/addface.jpg)
 - 添加自定义的人脸信息 <Br/>
