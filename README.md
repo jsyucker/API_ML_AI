@@ -41,17 +41,17 @@
 ## 使用者交互及设计:
 - 登录获取权限(低保真)<Br/>
 ![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/authorization.jpg)
-- 分三大功能：<Br/>
+- 有以下几个功能：<Br/>
 1. 我的(低保真)<Br/>
-![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/me.jpg)
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/meme.jpg)
 2. 每日新认识(低保真)<Br/>
 -  下拉刷新,点击放大后也有资料显示<Br/>
-![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/new_recongnition.jpg)
-3. 相似搜寻，可支持上传图片和长按图片弹出识别提示(低保真)<Br/>
-- 上传图片(低保真)，点击放大后也有资料显示<Br/>
-![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/upload.jpg)
-- 长按图片弹出提示(低保真)，点击放大后也有资料显示<Br/>
-![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/longpress.jpg)
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/new_known.jpg)
+3. 我要找人，可支持上传图片、长按图片和直接拍照识别(低保真)<Br/>
+- 先检测人脸，选择人脸，再搜索<Br/>
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/find_people.jpg)
+4. 长按图片弹出提示(低保真)，先检测人脸，点击放大后也有资料显示<Br/>
+![avatar](https://github.com/jsyucker/API_ML_AI/blob/master/longlongpress.jpg)
 
 ## API运用：
 1.face++:人脸识别-search_API、辅助API组(建立人脸库)输入和输出<Br/>
